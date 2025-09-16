@@ -13,13 +13,12 @@ Todos os arquivos da API estarão dentro do diretório `/api`.
 
 ### `POST /api/auth.php`
 
-Verifica se o usuário existe e se a senha está correta.
+Verifica se a senha existe.
 
 #### Parâmetros (Body JSON)
 
 ``` json
 {
-  "email": "usuario@exemplo.com",
   "senha": "123456"
 }
 ```
