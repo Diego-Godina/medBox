@@ -1,0 +1,332 @@
+{
+  "tables": [
+    {
+      "id": "8urYX8r5ygnd_oRpVvJA3",
+      "name": "user",
+      "x": -674,
+      "y": -143.9999999999999,
+      "locked": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "TDoNjlTPggsZgIwfGOsJs"
+        },
+        {
+          "id": "O9e729S8xJozyjqtZqJwP",
+          "name": "name",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 255
+        },
+        {
+          "id": "674kioRYo4kmQwC4cFf8h",
+          "name": "email",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": true,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 255
+        },
+        {
+          "id": "d9iKW91jKUZnJ3_vILsG9",
+          "name": "password",
+          "type": "MEDIUMTEXT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 65535
+        },
+        {
+          "id": "AM4L0fgHSFy03vzaObWc3",
+          "name": "register_date",
+          "type": "TIMESTAMP",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": []
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "4iEPhEBp8xEF4w9Ick0Ud",
+      "name": "box",
+      "x": 252,
+      "y": -183,
+      "locked": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "2i1eIB9XQib92p59zqRop"
+        },
+        {
+          "id": "wat9NNvlWCaTE4pG-uybV",
+          "name": "tool_type_id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": []
+        },
+        {
+          "id": "P_UeN6BSPjrsatjHNVgy0",
+          "name": "amount",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": []
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "Mmb_ADt5w19JCiTue74gu",
+      "name": "tool_type",
+      "x": 257.0000000000002,
+      "y": 96.99999999999994,
+      "locked": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "vI94NYUhQ5XItXqlGnsS4"
+        },
+        {
+          "id": "ek8tAE-CiHSVAihUZri0G",
+          "name": "name",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 255
+        },
+        {
+          "id": "eIf-UcB7_BiOPjospKvM8",
+          "name": "weight",
+          "type": "DOUBLE",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": ""
+        },
+        {
+          "id": "E4S0qLFWuDSI-tz5peT62",
+          "name": "qtn_warning",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": []
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "JTpInwGCaBH0z7K_-16sj",
+      "name": "logs",
+      "x": -224,
+      "y": -362,
+      "locked": false,
+      "fields": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "dcyy-HVItEhsUIUeuCw6c"
+        },
+        {
+          "id": "qbTHEx1xr4G-DnputT99Y",
+          "name": "user_id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": []
+        },
+        {
+          "id": "kI2s--O3GZzYTXuaWGjhA",
+          "name": "box_id",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": []
+        },
+        {
+          "id": "M0R1vVcjiiAba3tNB3Ahj",
+          "name": "date",
+          "type": "TIMESTAMP",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": []
+        },
+        {
+          "id": "030DVHBi2ZAzEmnL1eP8F",
+          "name": "qtn",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": []
+        },
+        {
+          "id": "olJtL9d4IgMmFZWhxXNX3",
+          "name": "type",
+          "type": "ENUM",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": [
+            "put",
+            "get"
+          ]
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    }
+  ],
+  "relationships": [
+    {
+      "startTableId": "Mmb_ADt5w19JCiTue74gu",
+      "startFieldId": "vI94NYUhQ5XItXqlGnsS4",
+      "endTableId": "4iEPhEBp8xEF4w9Ick0Ud",
+      "endFieldId": "wat9NNvlWCaTE4pG-uybV",
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "fk_tool_type_id_box",
+      "id": 0
+    },
+    {
+      "startTableId": "8urYX8r5ygnd_oRpVvJA3",
+      "startFieldId": "TDoNjlTPggsZgIwfGOsJs",
+      "endTableId": "JTpInwGCaBH0z7K_-16sj",
+      "endFieldId": "qbTHEx1xr4G-DnputT99Y",
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "fk_user_id_logs",
+      "id": 1
+    },
+    {
+      "startTableId": "4iEPhEBp8xEF4w9Ick0Ud",
+      "startFieldId": "2i1eIB9XQib92p59zqRop",
+      "endTableId": "JTpInwGCaBH0z7K_-16sj",
+      "endFieldId": "kI2s--O3GZzYTXuaWGjhA",
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "fk_box_id_logs",
+      "id": 2
+    }
+  ],
+  "notes": [],
+  "subjectAreas": [],
+  "database": "mysql",
+  "title": "medBox"
+}
